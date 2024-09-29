@@ -3,6 +3,10 @@ A simple Claude 3.5 LLM RAG server using golang, chi, and langchaingo
 
 This is based on the langchaingo example server given in the [Go github repo](https://github.com/golang/example/tree/master/ragserver/ragserver-langchaingo)
 
+This repo will evolve into a more sophisticate rag service primarily using advanced RAG 
+techniques like chunking, contextual retrieval, and bm25 ranking. Possibly will add a ui service
+for adding documents, specifying chunking when adding docs, managing documents, etc
+
 Claude is used as the main LLM due to preference. For text embedding it uses OpenAI simply 
 because that's I have used them in the past. Could easily use Gemini or Voyager as well.
 
