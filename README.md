@@ -56,4 +56,8 @@ putting the query string in the payload rather than as a query string
 
 ## To Do
 
+- finish BM25 ranking. Rank fusion to select docs for LLM submission
+- implement contextual retrieval as described [here](https://www.anthropic.com/news/contextual-retrieval)
+- refactor repo, organize as microservice
+- add ui for doc submission, determine doc chunking, other 'pie-in-the-sky' stuff
 so many things
